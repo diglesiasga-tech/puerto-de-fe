@@ -1,0 +1,32 @@
+[
+  {
+    "file": "aguadulce-atardecer.webp",
+    "title": "Playa aguadulce.jpg",
+    "author": "MdeVicente",
+    "date": "2015-11-19",
+    "source": "https://commons.wikimedia.org/wiki/File:Playa_aguadulce.jpg",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Resized and converted to WebP. Displayed with a CSS overlay and responsive crop. social.jpg uses a crop, darker exposure and project typography."
+  },
+  {
+    "file": "puerto-aguadulce.webp",
+    "title": "Puerto de Aguadulce.jpg",
+    "author": "CarlosVdeHabsburgo",
+    "date": "2022-04-26",
+    "source": "https://commons.wikimedia.org/wiki/File:Puerto_de_Aguadulce.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "changes": "Resized and converted to WebP. Responsive display crop and CSS caption gradient. The adapted image is provided under CC BY-SA 4.0."
+  },
+  {
+    "file": "san-indalecio-pechina.webp",
+    "title": "Iglesia Pechina 02.jpg",
+    "author": "Schumi4ever",
+    "date": "2024-10-10",
+    "source": "https://commons.wikimedia.org/wiki/File:Iglesia_Pechina_02.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "changes": "Resized and converted to WebP. Responsive display crop in an arch, with a CSS caption gradient. The adapted image is provided under CC BY-SA 4.0."
+  }
+]

@@ -36,10 +36,16 @@ python3 build_pages.py
 
 Los estilos y el JavaScript se editan directamente en `dist/`. Las tipografías se cargan desde Google Fonts, con alternativas de sistema.
 
+## Desplegar gratis en Render
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https%3A%2F%2Fgithub.com%2Fdiglesiasga-tech%2Fpuerto-de-fe)
+
+El archivo `render.yaml` define un **Static Site**: publica `dist/`, sin servidor ni base de datos de pago. Abre el botón, inicia sesión y revisa el despliegue en tu cuenta. Para configurarlo manualmente: rama `main`, comando `python3 build_pages.py`, directorio publicado `dist`.
+
 ## Publicación
 
 Publica la carpeta `dist/` en un alojamiento de archivos estáticos. Los metadatos canónicos, los enlaces de idiomas, la imagen social, `robots.txt` y `sitemap.xml` apuntan al dominio actual; actualízalos si cambia el dominio. La configuración privada de Sites no está incluida en este repositorio.
 
 ## Criterio editorial
 
-Iniciativa independiente en fase de propuesta, sin aprobación diocesana ni condición de ruta oficial. Se distingue la tradición religiosa de la evidencia histórica. El recorrido es conceptual y no sirve para navegación. Las imágenes se identifican como evocaciones generadas con IA.
+Iniciativa independiente en fase de propuesta, sin aprobación diocesana ni condición de ruta oficial. Se distingue la tradición religiosa de la evidencia histórica. El recorrido es conceptual y no sirve para navegación. Se utilizan fotografías reales de Aguadulce y Pechina, con autoría, procedencia y licencias documentadas en `dist/creditos.html` y `dist/photo-credits.json`. Las fotografías adaptadas con licencia CC BY-SA mantienen esa licencia.

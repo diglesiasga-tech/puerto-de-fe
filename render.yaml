@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: puerto-de-fe
+    runtime: static
+    repo: https://github.com/diglesiasga-tech/puerto-de-fe
+    branch: main
+    buildCommand: python3 build_pages.py
+    staticPublishPath: ./dist
+    autoDeployTrigger: off
+    envVars:
+      - key: SKIP_INSTALL_DEPS
+        value: "true"
+    headers:
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: Referrer-Policy
+        value: strict-origin-when-cross-origin
