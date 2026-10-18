@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://almeria-puerto-de-la-fe.diglesiasga.chatgpt.site/sitemap.xml
