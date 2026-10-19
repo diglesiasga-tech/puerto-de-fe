@@ -2,7 +2,7 @@
 
 Web de una propuesta de peregrinación, patrimonio y encuentro cristiano en torno a la tradición de los Siete Varones Apostólicos.
 
-**Sitio publicado:** https://almeria-puerto-de-la-fe.diglesiasga.chatgpt.site/
+**Sitio publicado:** https://puerto-de-fe.onrender.com/
 
 ## Contenido
 
@@ -23,7 +23,10 @@ Abre http://localhost:8080.
 
 ## Editar
 
-- `build_pages.py`: textos, traducciones y plantillas de las páginas.
+- `build_pages.py`: plantillas bilingües y generación de metadatos.
+- `apostolic_content.py`: enfoque pastoral, comunidad católica y recursos en español e inglés.
+- `dist/guia-parroquial.html`: guía de trabajo para comunidades.
+- `dist/prensa.html`: ficha informativa para medios, sin atribuir respaldo institucional.
 - `route-map.svg`: esquema conceptual de los lugares propuestos.
 - `dist/world.css`: diseño y estilos adaptables.
 - `dist/world.js`: navegación móvil, recorrido interactivo y enlace para compartir.
@@ -44,7 +47,7 @@ El archivo `render.yaml` define un **Static Site**: publica `dist/`, sin servido
 
 ## Publicación
 
-Publica la carpeta `dist/` en un alojamiento de archivos estáticos. Los metadatos canónicos, los enlaces de idiomas, la imagen social, `robots.txt` y `sitemap.xml` apuntan al dominio actual; actualízalos si cambia el dominio. La configuración privada de Sites no está incluida en este repositorio.
+Publica la carpeta `dist/` en un alojamiento de archivos estáticos. El generador usa `https://puerto-de-fe.onrender.com` como origen de los metadatos, idiomas, imagen social, `robots.txt` y `sitemap.xml`. Para otro dominio, define `SITE_URL` al ejecutar `build_pages.py`. La configuración privada de Sites no está incluida en este repositorio.
 
 ## Criterio editorial
 

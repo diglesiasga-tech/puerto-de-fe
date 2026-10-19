@@ -21,7 +21,7 @@ function closeMenu(){header.classList.remove('menu-open');menu.setAttribute('ari
 menu.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';header.classList.toggle('menu-open',open);menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',open?menu.dataset.close:menu.dataset.open)});
 document.querySelectorAll('nav a').forEach(link=>link.addEventListener('click',closeMenu));
 document.addEventListener('keydown',event=>{if(event.key==='Escape'&&menu.getAttribute('aria-expanded')==='true'){closeMenu();menu.focus()}});
-const wide=window.matchMedia('(min-width:761px)');wide.addEventListener('change',e=>{if(e.matches)closeMenu()});
+const wide=window.matchMedia('(min-width:1001px)');wide.addEventListener('change',e=>{if(e.matches)closeMenu()});
 const progress=document.querySelector('.reading-progress');let queued=false;
 function updateProgress(){const extent=document.documentElement.scrollHeight-innerHeight;progress.style.transform=`scaleX(${extent>0?Math.min(1,Math.max(0,scrollY/extent)):0})`;queued=false}
 addEventListener('scroll',()=>{if(!queued){requestAnimationFrame(updateProgress);queued=true}},{passive:true});addEventListener('resize',updateProgress);updateProgress();
